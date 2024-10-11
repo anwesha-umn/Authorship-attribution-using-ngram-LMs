@@ -26,4 +26,4 @@ classifier.py: Contains the code for the generative authorship classifier as wel
    $ python classifier.py authorlist -approach discriminative -test test_sents.txt
 
 #### Text generation using NLTK models
-Checkout 
+Checkout [text generation](https://github.com/1998anwesha/Authorship-attribution-using-ngram-LMs/blob/main/text_generation_analysis.ipynb) results from n-gram models of each author. For five given prompts, one sample per author with corresponding perplexity score is reported. 
