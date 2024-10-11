@@ -25,3 +25,5 @@ classifier.py: Contains the code for the generative authorship classifier as wel
    ```bash
    $ python classifier.py authorlist -approach discriminative -test test_sents.txt
 
+#### Text generation using NLTK models
+Checkout 
