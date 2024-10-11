@@ -7,12 +7,21 @@ This project implements both generative and discriminative models to classify th
 ### Project Structure
 classifier.py: Contains the code for the generative authorship classifier as well as discriminative classifier. 
 
+##### Train and evaluate Generative Classifier (built using using NLTK-based n-gram models)
 1. **Train on 90% of the dataset and evaluate on the reamining 10% of dataset**
 
    ```bash
    $ python classifier.py authorlist -approach generative
-3. 
-using NLTK-based n-gram models.
-discriminative_classifier.py: Implements the discriminative classifier using the HuggingFace DistilBERT model.
-data/: Contains the author text files used for training and evaluation.
-README.md: This file, providing an overview of the project, instructions for usage, and key results.
+2. **Train on full dataset and evaluate on the test_sents.txt file**
+   ```bash
+   $ python classifier.py authorlist -approach generative -test test_sents.txt
+   
+##### For DistilBERT based classifier
+1. **Train on 90% of the dataset and evaluate on the reamining 10% of dataset**
+
+   ```bash
+   $ python classifier.py authorlist -approach discriminative
+2. **Train on full dataset and evaluate on the test_sents.txt file**
+   ```bash
+   $ python classifier.py authorlist -approach discriminative -test test_sents.txt
+
