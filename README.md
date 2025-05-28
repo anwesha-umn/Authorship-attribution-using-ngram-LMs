@@ -12,7 +12,7 @@ classifier.py: Contains the code for the generative authorship classifier as wel
 
    ```bash
    $ python classifier.py authorlist -approach generative
-2. **Train on full dataset and evaluate on the test_sents.txt file**
+3. **Train on full dataset and evaluate on the test_sents.txt file**
    ```bash
    $ python classifier.py authorlist -approach generative -test test_sents.txt
    
